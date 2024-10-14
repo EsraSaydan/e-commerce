@@ -2,12 +2,12 @@ import "./App.css";
 import "./index.css";
 //import { ToastContainer, toast } from "react-toastify";
 //import "react-toastify/dist/ReactToastify.css";
-import Header from "./layout/Header";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div>
-      <Header />
+      <HomePage />
     </div>
   );
 }
