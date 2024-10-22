@@ -1,13 +1,17 @@
 import "./App.css";
 import "./index.css";
+import Footer from "./layout/Footer";
 //import { ToastContainer, toast } from "react-toastify";
 //import "react-toastify/dist/ReactToastify.css";
-import HomePage from "./pages/HomePage";
+import PageContent from "./layout/PageContent";
+import Navbar from "./components/home/Navbar";
 
 function App() {
   return (
     <div>
-      <HomePage />
+      <Navbar />
+      <PageContent />
+      <Footer />
     </div>
   );
 }

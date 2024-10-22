@@ -12,7 +12,7 @@ const HeroContent = () => {
         <p className="font-normal text-xl text-secondTextColor py-4 max-w-xs">
           We know how large objects will act, but things on a small scale.
         </p>
-        <button className="bg-primary text-white font-bold text-2xl px-8 py-4 rounded-md hover:opacity-75">
+        <button className="bg-customLightBlue text-white font-bold text-2xl px-8 py-4 rounded-md hover:opacity-75">
           SHOP NOW
         </button>
       </div>

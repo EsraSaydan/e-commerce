@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <section className="text-sm max-md:pt-6 max-md:px-4 w-full">
       {/* Üst Bilgi Navbar-Dark */}
-      <div className="bg-navBlueBg text-white flex justify-between w-full max-md:hidden px-5 py-2">
+      <div className="bg-productGraphDesign text-white flex justify-between w-full max-md:hidden px-5 py-2">
         <div className="flex gap-5 items-center">
           <div className="flex gap-2 items-center">
             <i className="fa-solid fa-phone"></i>
@@ -31,7 +31,7 @@ const Navbar = () => {
       {/* Ana Navigasyon (Main Navigation) */}
       <article className="flex justify-between px-6 py-3 items-center">
         <div className="flex gap-6 items-center ">
-          <h1 className="text-3xl font-bold w-[145px] h-[32px] mt-[13px] font-montserrattext-[24px] leading-[32px] tracking-[0.1px] text-navBlueBg">
+          <h1 className="text-3xl font-bold w-[145px] h-[32px] mt-[13px] font-montserrattext-[24px] leading-[32px] tracking-[0.1px] text-productGraphDesign">
             TrendHub
           </h1>
           <nav className="flex w-[361px] h-[25px] mt-[16.5px] gap-[15px] ml-4 font-semibold text-[#737373] max-md:hidden">
@@ -47,7 +47,7 @@ const Navbar = () => {
                 {/* Dropdown menü buraya eklenecek */}
               </button>
             </div>
-            <a className="hover:underline" href="/about-us">
+            <a className="hover:underline" href="/about">
               About
             </a>
             <a className="hover:underline" href="/team">
