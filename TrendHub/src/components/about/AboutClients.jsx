@@ -13,7 +13,7 @@ export default function AboutClients() {
         </p>
       </section>
       <main className="flex justify-center bg-bgGray">
-        <div className="basis-[90%] flex justify-center flex-wrap lg:mt-[80px] gap-x-4 gap-y-10 lg:space-x-[70px] text-9xl lg:text-7xl  text-iconGray p-8 -translate-y-20  ">
+        <div className="basis-[90%] flex justify-center flex-wrap lg:mt-[80px] gap-x-20 lg:gap-x-4 gap-y-10 lg:space-x-[70px] text-9xl lg:text-7xl  text-iconGray p-8 -translate-y-20  ">
           <i className="fa-brands fa-hooli  "></i>
           <i className="fa-brands fa-lyft "></i>
           <i className="fa-brands fa-pied-piper-hat "></i>
